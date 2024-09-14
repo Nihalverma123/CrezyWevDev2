@@ -1,0 +1,71 @@
+
+.page2{
+    width: 100vw;
+  display: flex;
+  background-color: #000000;
+  height: 100vh;
+  position: relative;
+}
+
+
+.button{
+    width: 100vw;
+    display: flex;
+   justify-content: center;
+ 
+
+}
+.styleButton{
+    background-color: #EF901D;
+    padding: 10px 20px;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 600;
+    
+}
+.arrowStyle{
+    display: flex;
+    
+    justify-content: center;
+}
+.line1{
+    height: 2px;
+    width: 30vw;
+    background-color: #7F6084;
+    position: relative;
+    right: 0vw;
+    top: 20px;
+    background: linear-gradient(to right, #7F6084, transparent)
+}
+.line2{
+    height: 2px;
+    width: 43vw;
+    background-color: #7F6084;
+    position: relative;
+    top: 20px;
+    left: 12vw;
+    background: linear-gradient(to left, #7F6084, transparent)
+  
+   
+   
+}
+.arrow{
+    position: relative;
+    top: 18px;
+    left: -50px;
+}
+.styleh1{
+width: 100vw;
+    display: flex;
+   justify-content: center;
+   position: absolute;
+   top: 100px;
+   color: #7F6084;
+   font-size: 50px;
+   font-weight: 800;
+  
+}

@@ -1,0 +1,122 @@
+.abc{
+    
+ 
+ color:#8E9092;
+ font-family: "Poppins", sans-serif;
+ font-size: 12px;
+ font-weight: 800;
+}
+.responsive1 li{
+
+
+}
+
+.menuIcon{
+
+  font-size: 10px;
+}
+.logostyle{
+  display: flex;
+  background-color: #D14423;
+  padding:8px 12px ;
+  color: #FFFFFF;
+  border-radius: 5px;
+  height: 36px 126px;
+  align-items: center;
+
+}
+
+.abc:hover{
+  color :white
+
+}
+.abc:hover{
+    line-height:  5;
+    border-bottom: 4px solid  #EF901D;
+}
+.abcd:hover{
+    line-height:  5;
+    border-bottom: 4px solid  #EF901D;
+}
+
+.signupStyle{
+  font-size: 11px;
+ 
+}
+.abcd{
+  color:#8E9092;
+ font-family: "Poppins", sans-serif;
+ font-size: 12px;
+ font-weight: 800;
+}
+.abcd:hover{
+  color: #FFFFFF;
+
+}
+.navbar{
+
+  padding: 16px 32px;
+  width: 100vw;
+  display: flex;
+  background-color: #1A1B21;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  position: sticky;
+  top: 0px;
+}
+
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 767px){
+  .navbar{
+
+width: 100%;
+  }
+
+   
+  
+  .responsive1 .abcd{
+    display: block;
+    color:#8E9092;
+    font-size: 12px;
+    display: flex;
+   position: relative;
+  
+  }
+   .responsive1 .abcd{
+    display: flex;
+    gap: 3px;
+   }
+   .responsive1 .abcd:hover{
+    color: white;
+   }
+  
+  .responsivnav :hover{
+    color: #EF901D;
+    cursor: pointer;
+  }
+ .menuIcon{
+
+  position: relative;
+ left: -19px;
+font-weight: 100;
+ }
+ .logostyle{
+  position: relative;
+  left: -19px;
+ }
+
+  .abc{
+    display: none;
+  }
+  .signupStyle{
+
+    font-size: 9px;
+    padding: 4px 8px;
+    background-color: #EF901D;
+  }
+
+  
+}

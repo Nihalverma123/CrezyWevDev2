@@ -1,0 +1,94 @@
+.styleHeading h1 {
+display: flex;
+justify-content: center;
+
+
+}
+
+.styleHeading h2 {
+display: flex;
+justify-content: center;
+
+
+}
+.homeStyle{
+
+  background:  #191A1F ;
+ 
+}
+.allimage{
+    display: none;
+}
+
+
+.heading1{
+   display: flex;
+  
+  
+    background: linear-gradient(90deg, rgb(217, 114, 88) 0%, rgb(152, 88, 163) 100%) text;
+    -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    font-size: 60px;
+   justify-content: center;
+   font-weight: 800;
+   
+}
+.heading2{
+
+   color: #D2958A;
+   font-size: 30px;
+   font-weight: 700;
+
+
+}
+span {
+
+    color: #849FAD;
+}
+
+.styleButton{
+
+    display: flex;
+    justify-content: center;
+   
+}
+.buttonHome{
+
+    margin-top: 200px;
+
+    background-color:#EF901D ;
+    padding: 4px  40px;
+    font-weight: 600;
+    font-weight: 700;
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+    .heading{
+        flex-direction: column;
+        text-align: center;
+    }
+    .heading span{
+       font-size: 7vw;
+      }
+      .heading2{
+        margin-top: 3vw;
+        font-size: 4vw;
+        text-align: center;
+      }
+      .image-sec{
+    display: none;
+      }
+      .allimage{
+
+        display: block;
+        display: flex;
+        overflow-x: scroll; 
+        white-space: nowrap
+   
+      }
+
+    
+      
+}
